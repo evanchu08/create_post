@@ -1,0 +1,14 @@
+export const GET_ERRORS = 'get_errors';
+export const Register_User = 'register_user';
+export const SET_CURRENT_USER = 'set_current_user';
+export const PROFILE_LOADING = 'profile_loading';
+export const GET_USER_PROFILE = 'get_user_profile';
+export const CLEAR_PROFILE = 'clear_profile';
+export const GET_ALL_PROFILES = 'get_all_profiles';
+export const ADD_POST = 'add_post';
+export const SET_POST_LOADING = 'set_post_loading';
+export const GET_POST = 'get_post';
+export const DELETE_POST = 'delete_post';
+export const CLEAR_ERROR = 'clear_error';
+export const GET_POST_BY_ID = 'get_post_by_id';
+export const DELETE_COMMENT = 'delete_comment';
