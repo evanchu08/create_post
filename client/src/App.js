@@ -54,6 +54,7 @@ class App extends Component {
             <Route exact path = "/profile/:handle" component={Profile} />
             <Route exact path = "/register" component={Register} />
             <Route exact path = "/" component={Landing} />
+            <Route exact path = "/landing" component={Landing} />
             <Switch>
               <PrivateRoute exact path = "/dashboard" component={DashBoard} />
               <PrivateRoute exact path = "/create_profile" component={CreateProfile} />
@@ -64,7 +65,7 @@ class App extends Component {
               <PrivateRoute exact path ="/post/:id" component={Post} />
             </Switch>     
             <Footer />
-            <Route exact path="/not-found" component={PageNotFound} />      
+            <Route exact path="/not-found" component={PageNotFound} />     
           </div>
         </BrowserRouter>
       </Provider>
